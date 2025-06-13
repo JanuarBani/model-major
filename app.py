@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 import joblib
 import os
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 MODEL_PATH = "my_model.h5"
 SCALER_PATH = "scaler.pkl"
